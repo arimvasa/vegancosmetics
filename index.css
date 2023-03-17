@@ -1,7 +1,32 @@
-.flex-container {
-    /* display: flex; */
+.flex-container div {
+    display: block;
+    width: auto;
+    align-content: center;
+
 }
 
+
 .one {
-    background-color: darkblue;
+    flex: 1;
+    display: flex;
+    background-color: #1f2937;
+}
+
+.two {
+    flex: 1;
+    display: flex;
+    background-color: white;
+}
+
+
+.three {
+    flex: 1;
+    display: flex;
+    background-color: #e5e7ed;
+}
+
+.four {
+    flex: 1;
+    display: flex;
+    background: white;
 }
