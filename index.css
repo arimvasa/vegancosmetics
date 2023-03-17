@@ -1,10 +1,10 @@
-.flex-container div {
-    display: block;
-    width: auto;
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
     align-content: center;
 
 }
-
 
 .one {
     flex: 1;
