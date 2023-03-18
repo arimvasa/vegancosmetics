@@ -6,11 +6,22 @@
 }
 
 
+img {
+    object-fit: cover;
+
+}
+
+a {
+    text-align: right;
+    display: block;
+}
+
 
 .item-one {
     flex: 1;
     display: flex;
     background-color: #1f2937;
+    height: 500vh;
 }
 
 
@@ -47,21 +58,17 @@
 
 
 
-
-
-
-
-
-
 .item-three {
     flex: 1;
     display: flex;
     background-color: #e5e7ed;
     text-align: center;
+    height: 500vb;
 }
 
 .item-four {
     flex: 1;
     display: flex;
     background: white;
+    height: 500vb;
 }
