@@ -3,29 +3,64 @@
     flex-direction: column;
     height: 100vh;
     align-content: center;
-
 }
 
-.one {
+
+
+.item-one {
     flex: 1;
     display: flex;
     background-color: #1f2937;
 }
 
-.two {
-    flex: 1;
+
+
+
+
+.item-two {
+
     display: flex;
+    flex-direction: row;
     background-color: white;
+    justify-content: space-between;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
 }
 
 
-.three {
+.section1,
+.section2,
+.section3,
+.section4 {
+    display: flex;
+    padding: 50px;
+    margin: 50px;
+    height: auto;
+
+    border-style: inset;
+    border-color: blue;
+}
+
+
+
+
+
+
+
+
+
+.item-three {
     flex: 1;
     display: flex;
     background-color: #e5e7ed;
+    text-align: center;
 }
 
-.four {
+.item-four {
     flex: 1;
     display: flex;
     background: white;
