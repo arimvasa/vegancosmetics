@@ -1,7 +1,7 @@
 .flex-container {
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: 200vh;
     align-content: center;
 }
 
@@ -15,6 +15,7 @@ a {
     text-align: right;
     display: block;
 }
+
 
 
 .item-one {
@@ -34,6 +35,7 @@ a {
     flex-direction: row;
     background-color: white;
     justify-content: space-between;
+
 }
 
 #title {
@@ -48,9 +50,11 @@ a {
 .section3,
 .section4 {
     display: flex;
-    padding: 50px;
-    margin: 50px;
+    padding: 20px;
+    margin: 80px;
     height: auto;
+
+
 
     border-style: inset;
     border-color: blue;
